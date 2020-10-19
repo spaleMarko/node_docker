@@ -1,6 +1,1 @@
-.vscode
-*.json
-*.log
-project_env/
-node_modules
-.node_modules
+.env
