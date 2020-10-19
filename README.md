@@ -2,14 +2,6 @@
 
 ## Docker
 ```
-docker-compose up --build --remove-orphans
-```
-
-```
-docker-compose down --volumes --remove-orphans
-```
-
-## CouchDB
-```
-http://0.0.0.0:5984/_utils/#
+docker build -t marko/node_docker .
+docker run -p 49160:8080 -d marko/node_docker
 ```
