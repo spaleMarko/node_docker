@@ -1,7 +1,8 @@
-# Traveling
+# Docker compose up
 
-## Docker
+## Install express app
 ```
-docker build -t marko/node_docker .
-docker run -p 49160:8080 -d marko/node_docker
-```
+npx express-generator
+npm install
+npm install --save nodemon
+npm start
