@@ -3,7 +3,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  // {description: "Eating apple", complete: true}
+  res.render('index', { title: 'Todos', todos: [] });
 });
 
 module.exports = router;
