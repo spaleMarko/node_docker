@@ -1,20 +1,11 @@
 # Docker compose up
 
-## Install express app
+## Start app
 ```
-npx express-generator
-npm install
-npm install --save nodemon
-npm start
+docker-compose up --build --remove-orphans
 ```
 
-## Add docker filles
+## Delete volumes 
 ```
-ctrl shift p Docker add docker filles to workspace
-docker-compose up
-```
-
-## Added mongo
-```
-npm install --save mongoose
+docker-compose down --volumes --remove-orphans
 ```
